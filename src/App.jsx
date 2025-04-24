@@ -25,6 +25,9 @@ import BgBackLogo from './assets/icons/bgBackLogo';
 import MenAvatar from './assets/img/MenAvatar';
 import Avatar from './assets/img/avatar.png'
 import PC from './assets/img/PC';
+import FaceBookIcon from './assets/icons/faceBookIcon';
+import Instagram from './assets/icons/Instagram';
+import Twitter from './assets/icons/Twitter';
 function App() {
   const faqQuestion = [
     { question: "Which plan is right for me?" },
@@ -154,14 +157,14 @@ function App() {
     <LaptopVector/>
     
     </div>
-    <div className="md:w-1/2 flex flex-col">
-      <h2 className="text-3xl md:text-4xl font-bold mb-5">
+    <div className="md:w-1/2 max-sm:w-full flex flex-col">
+      <h2 className="text-3xl md:text-4xl max-sm:text-xl font-bold mb-5">
         One gateway endless entertainment
       </h2>
       <p className="mb-7 text-gray-700">
         Content at the tip of your fingers! With thousands of servers and millions of IPs, you can access websites and enjoy your favourite movies, TV shows, games, and more; in over 190 countries.
       </p>
-      <div className="svgIcons flex gap-2 items-center text-2xl mt-2">
+      <div className="svgIcons grid gap-2 justify-center items-center max-sm:grid-cols-2 mt-2">
 
         <Netflix/>
         <Youtube/>
@@ -198,8 +201,8 @@ function App() {
     </div>
 {/*Tarifs Company */}
   <div className="container max-md:h-full max-md:w-full justify-center items-center flex flex-col w-[90%] mx-auto gap-12 py-6 ">
-  <div className="text-center">
-    <h2 className='font-bold md:text-4xl text-3xl mb-4 '>Save big with our annual plans</h2>
+  <div className="text-center max-sm:w-full">
+    <h2 className='font-bold md:text-4xl text-3xl  max-sm:text-2xl mb-4 '>Save big with our annual plans</h2>
     <p className='text-gray-700'>Sign up and save a ton! No logs. No hidden fees.</p>
   </div>
   </div>
@@ -317,7 +320,7 @@ function App() {
         <span className=''>
         Since we trust that you will fall in love with vping, we offer our users the option to try it for 30 days. If you don’t enjoy the experience, we will give you a 100% refund. It is a long established fact that a reader will be distracted.
         </span>
-          <div className='flex gap-4 items-center '>
+          <div className='flex gap-4   items-center '>
             <div className="rounded-full  overflow-hidden mt-6  relative w-[100px] h-[100px] bg-amber-400">
               <img src={Avatar} width={80}  alt="avatar" className='absolute top-5 left-2' />
             </div>
@@ -325,7 +328,7 @@ function App() {
               <h4 className='mb-2'>Salina Gomez</h4>
               <span className='text-xs'>Aug 15, 2021</span>
             </div>
-            <div className='flex gap-0.5 mt-8'>
+            <div className='flex max-sm:flex-col gap-0.5 mt-8'>
               <Star className="size-6 fill-amber-400 stroke-amber-400"/>
               <Star className="size-6 fill-amber-400 stroke-amber-400"/>
               <Star className="size-6 fill-amber-400 stroke-amber-400"/>
@@ -363,25 +366,25 @@ function App() {
     </div>
     </div>
   </section>
-  {/* Question */}
+  {/* Footer*/}
 
-  <div className="min-h-screen overflow-hidden relative content-block flex items-center">
-        <div className="absolute max-md:top-[30rem]  rounded-full blur-2xl top-[22rem] right-0 w-[24rem] h-[24rem] bg-radial from-[#4c9ba5] to-[#638bd6] "></div>
+  <div className="overflow-hidden relative content-block ">
+        <div className="absolute max-md:top-[30rem] max-sm:top-[58rem] max-sm:right-[-5rem]  rounded-full blur-2xl top-[15rem] right-0 w-[24rem] h-[24rem] bg-radial from-[#4c9ba5] to-[#638bd6] "></div>
     
       <div className="container mx-auto px-4 py-16">
       <div className="relative h-0 z-0">
-        <div className='absolute top-60 lef-0 blur-3xl size-64 rounded-full bg-radial-[at_50%_75%] from-[#27c3dd] via-[#36a5b7] to-[#566bf9] to-90% '></div>
+        <div className='absolute top-60 lef-0 blur-3xl max-sm:w-full size-64 rounded-full bg-radial-[at_50%_75%] from-[#27c3dd] via-[#36a5b7] to-[#566bf9] to-90% '></div>
     <div className="absolute rounded-full radial-gardient"></div>
       <div className=" gradient-border "></div>
       <div className='radial-gradient-big relative rounded-full p-[1rem] w-[85rem] h-[85rem] left-2/6 max-md:left-2/16 max-md:-top-[80rem] -top-[53rem]'></div>
     </div>
-        <div className="grid z-20 relative lg:grid-cols-2 gap-12 items-center">
+        <div className="grid max-sm:flex max-sm:flex-col z-20 relative lg:grid-cols-2 gap-12 items-center">
           <div className="">
             
           <PC/>
           </div>
           
-          <div className=" text-white">
+          <div className=" text-white max-sm:w-full">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Get what you need online, completely undetected.
             </h1>
@@ -392,8 +395,8 @@ function App() {
             
             <div className="mb-8">
             <div className="flex gap-2.5 items-end">
-      <Star className="size-8 fill-white stroke-white"/>
-      <h4 className='font-bold text-2xl'>Trustpilot</h4>
+      <Star className="size-8 max-sm:size-6 fill-white stroke-white"/>
+      <h4 className='font-bold text-2xl max-sm:text-xl'>Trustpilot</h4>
       <div className="w-1/4 ">
       <div className="flex">
       <Star className ="stroke-white "/>
@@ -426,7 +429,62 @@ function App() {
           </div>
         </div>
       </div>
+      <footer className=" relative text-white py-8 px-4 md:px-8 max-w-6xl mx-auto">
+      <div className="absolute rounded-full z-0 -bottom-48 -left-[12rem] w-[32rem] border-[3rem] h-[32rem] border-[#5d91d6] "></div>
+    
+
+<div className="grid grid-cols-1 z-20 relative md:grid-cols-[35%_20%_15%_20%] gap-8">
+<div className="mb-6">
+<h2 className='uppercase text-white  font-extrabold max-md:text-xl'>vpng<span className='text-amber-200'>.</span></h2>
+  <p className="text-sm">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  </p>
+</div>
+  {/* Product Column */}
+  <div>
+    <h3 className="font-semibold text-lg mb-4">Product</h3>
+    <ul className="space-y-2">
+      <li><a href="#" className="hover:text-gray-900 transition">Download</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">Pricing</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">Server</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">VPN for Business</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">VPN for Non-Profit</a></li>
+    </ul>
+  </div>
+
+  {/* Company Column */}
+  <div>
+    <h3 className="font-semibold text-lg mb-4">Company</h3>
+    <ul className="space-y-2">
+      <li><a href="#" className="hover:text-gray-900 transition">What's is VPN?</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">FAQ</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">Tutorials</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">About us</a></li>
+      <li><a href="#" className="hover:text-gray-900 transition">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  {/* Connect with us Column */}
+  <div>
+    <h3 className="font-semibold text-lg mb-4">Connect with us</h3>
+    <div className="flex space-x-4">
+      <a href="#" className="text-white hover:text-zinc-300 transition">
+        <FaceBookIcon/>
+      </a>
+      <a href="#" className="text-white hover:text-zinc-300 transition">
+        <Twitter/>
+      </a>
+      <a href="#" className="text-white hover:text-zinc-300 transition">
+        <Instagram/>
+      </a>
     </div>
+  </div>
+</div>
+
+</footer>
+    </div>
+
   </div>
   )
 }

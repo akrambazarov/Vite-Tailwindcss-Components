@@ -2,7 +2,7 @@ import React from 'react'
 
 const PC = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="437" height="425" viewBox="0 0 517 525" fill="none">
+    <svg xmlns="http://www.w3.org/2000/svg" width="437" height="425" className='max-sm:size-68' viewBox="0 0 517 525" fill="none">
 <g clipPath="url(#clip0_115_311)">
 <path d="M0 496.765L48.9682 468.53L97.9364 496.765L48.9682 524.999L0 496.765ZM48.9682 470.987L4.25397 496.765L48.9546 522.542L93.6689 496.765L48.9682 470.987Z" fill="white"/>
 <path d="M16.7576 487.48L48.9682 506.05V468.91L16.7576 450.327V487.48Z" fill="#173D7A"/>
