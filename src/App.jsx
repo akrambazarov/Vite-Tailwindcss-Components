@@ -304,7 +304,7 @@ function App() {
 
   </div>
   {/* Rated VPN */}
-  <section className='w-full container my-12 mt-28'>
+  <section className='w-full container xl:mx-auto my-12 mt-28'>
 <div className="md:ml-[16rem] max-md:ml-8 flex flex-col gap-4">
   <h2 className='font-bold text-4xl max-md:text-3xl'>The highest rated VPN</h2>
   <span className='text-left'>Trusted and loved by our users</span>
@@ -317,7 +317,7 @@ function App() {
         <span className=''>
         Since we trust that you will fall in love with vping, we offer our users the option to try it for 30 days. If you don’t enjoy the experience, we will give you a 100% refund. It is a long established fact that a reader will be distracted.
         </span>
-          <div className='flex gap-4   items-center '>
+          <div className='flex gap-4 max-sm:grid max-sm:grid-cols-2   items-center '>
             <div className="rounded-full  overflow-hidden mt-6  relative w-[100px] h-[100px] bg-amber-400">
               <img src={Avatar} width={80}  alt="avatar" className='absolute top-5 left-2' />
             </div>
@@ -325,7 +325,7 @@ function App() {
               <h4 className='mb-2'>Salina Gomez</h4>
               <span className='text-xs'>Aug 15, 2021</span>
             </div>
-            <div className='flex max-sm:flex-col gap-0.5 mt-8'>
+            <div className='flex max-sm:justify-start gap-0.5 mt-8'>
               <Star className="size-6 fill-amber-400 stroke-amber-400"/>
               <Star className="size-6 fill-amber-400 stroke-amber-400"/>
               <Star className="size-6 fill-amber-400 stroke-amber-400"/>
