@@ -288,7 +288,7 @@ function App() {
   <BgBackLogo/>
   </div>
 </div>
-<div className="relative bg-white p-12 w-[90%] z-20  mx-auto rounded-2xl shadow-[0_0_67px_3px_#0000002e]">
+<div className="relative container bg-white p-12 w-[90%] z-20  mx-auto rounded-2xl shadow-[0_0_67px_3px_#0000002e]">
     
     <div className="text-center mb-12">
       <h2 className="font-bold text-4xl mb-4">A premium experience</h2>
@@ -304,7 +304,7 @@ function App() {
 
   </div>
   {/* Rated VPN */}
-  <section className='w-full my-12 mt-28'>
+  <section className='w-full container my-12 mt-28'>
 <div className="md:ml-[16rem] max-md:ml-8 flex flex-col gap-4">
   <h2 className='font-bold text-4xl max-md:text-3xl'>The highest rated VPN</h2>
   <span className='text-left'>Trusted and loved by our users</span>
