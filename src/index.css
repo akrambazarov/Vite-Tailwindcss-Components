@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import "tailwindcss";
+.content-block{
+  background-image: linear-gradient(var(--tw-gradient-stops, 25deg, #518fff 5%, #637fc1 60%, #5173ad 90%, #4d7ed7));
+}
+.svgIcons svg path{
+  fill: #666E6D;
+}
