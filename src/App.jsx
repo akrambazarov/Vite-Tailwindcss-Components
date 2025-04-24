@@ -161,7 +161,7 @@ function App() {
       <p className="mb-7 text-gray-700">
         Content at the tip of your fingers! With thousands of servers and millions of IPs, you can access websites and enjoy your favourite movies, TV shows, games, and more; in over 190 countries.
       </p>
-      <div className="svgIcons grid gap-2 justify-center items-center max-sm:grid-cols-2 mt-2">
+      <div className="svgIcons grid gap-2 justify-center lg:grid-cols-4 items-center grid-cols-2 mt-2">
 
         <Netflix/>
         <Youtube/>
